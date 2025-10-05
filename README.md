@@ -10,7 +10,7 @@ Here you can find implementation of Julia and Mandelbrot sets using NumPy and al
 
 Julia set                                                  |  Mandelbrot set
 :---------------------------------------------------------:|:-------------------------:
-<img src="./images/julia.png" width="100%" height="100%">  |  <img src="./images/madelbrot.png" width="97%" height="9%">
+<img src="./images/julia.png" width="100%">  |  <img src="./images/madelbrot.png" width="100%">
  
 Also you can find here a code for animation of Julia set for different values of the complex parameter.
 <p align="center">
@@ -41,7 +41,7 @@ Here you can find jitted version of Schelling model for different R values.
 Can the signal be drawn? Yes, and the simplest way to do it - transform the signal into the frequency domain.
 Here you can find an implementation of Spectrogram, that shows us a mixture of several signals (These color spots are signals)
 <p align="center">
-<img src="./images/spec.png" width="80%" height="80%">
+<img src="./images/spec.png" width="50%" height="50%">
 </p>
 Moreover you can find here implementation of Spectrogram using MPI. So each part of image was drawn by individual process and the result was concatenated.
 
